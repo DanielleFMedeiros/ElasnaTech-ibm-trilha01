@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Olá!!!</title>
+        
+        <script type="text/javascript" src="script.js"></script>
+        
+        
+        <script type="text/javascript">
+            //nao retorna nada
+            function Mensagem(msg){
+                alert(msg);
+            }
+
+            //ate aqui nao funciona, pq preciso chamar a variável.
+            
+            //prompt quando abre parênteses ele tem dois parâmetros:
+            //mensagem é uma string
+            //valor: texto que o usuario digitou
+
+            //var idade = prompt("Digite sua idade:", "");
+            //alert("Sua idade: " +idade);
+            //null=uma variavel sem valor
+
+            function Soma(a, b){
+                //retorna alguma coisa
+                var resultado = a + b;
+                
+                return resultado;
+            }
+            
+            var x = Soma(10, 20) + 40;
+            alert("Resultado: " + x);
+        </script>
+    </head>
+    <body>
+        
+        <button onclick="Mensagem('Olá Mundo legal!')">Alerta</button>
+        
+    </body>
+</html>
